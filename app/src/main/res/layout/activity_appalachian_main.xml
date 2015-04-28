@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".AppalachianMainActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imgSail"
+        android:contentDescription="@string/ch81imgTrail"
+        android:src="@drawable/hike"
+        />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <View android:layout_height="60dp"/>
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:background="#ffff0000"
+                android:padding="10dp"
+                android:text="@string/ch81txtTitle"
+                android:textSize="26sp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#ffb4b4b4" />
+        </TableRow>
+
+        <TableRow>
+        <View android:layout_height="50dp"/>
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:text="@string/ch81btnDate"
+                android:textSize="18sp"
+                android:gravity="fill_horizontal"
+                android:layout_gravity="center"
+                android:layout_column="1"
+                android:textColor="#ffff0000" />
+        </TableRow>
+
+        <TableRow>
+            <View android:layout_height="60dp"/>
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_gravity="start"
+                android:padding="5dp"
+                android:text="@string/ch81txtDescription"
+                android:textSize="20sp"
+                android:textColor="#ffff0000" />
+        </TableRow>
+
+        <TableRow>
+            <View android:layout_height="60dp"/>
+            <TextView
+                android:id="@+id/txtReservation"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="20sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

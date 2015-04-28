@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".SailingPhoneMainActivity">
+
+   <ImageView
+       android:layout_width="100dp"
+       android:layout_height="fill_parent"
+       android:scaleType="fitXY"
+       android:id="@+id/imgSail"
+       android:contentDescription="@string/ch8imgSail"
+       android:src="@drawable/sailing"
+       />
+
+   <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <View android:layout_height="60dp"/>
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:background="#B0C4DE"
+                android:gravity="fill_horizontal"
+                android:padding="10dp"
+                android:text="@string/ch8txtTitle"
+                android:textSize="26sp"
+                android:typeface="serif"
+                android:textStyle="bold"/>
+        </TableRow>
+
+       <TableRow>
+           <View android:layout_height="60dp"/>
+           <TextView
+               android:id="@+id/txtDescription"
+               android:layout_width="wrap_content"
+               android:layout_gravity="start"
+               android:padding="5dp"
+               android:text="@string/ch8txtDescription"
+               android:textSize="20sp"/>
+       </TableRow>
+
+       <TableRow>
+           <View android:layout_height="50dp"/>
+           <Button
+               android:id="@+id/btnDate"
+               android:layout_width="wrap_content"
+               android:padding="10dp"
+               android:text="@string/ch8btnDate"
+               android:textSize="18sp"
+               android:gravity="fill_horizontal"
+               android:layout_gravity="center" />
+       </TableRow>
+
+       <TableRow>
+           <View android:layout_height="60dp"/>
+           <TextView
+               android:id="@+id/txtReservation"
+               android:layout_width="wrap_content"
+               android:layout_gravity="center"
+               android:padding="10dp"
+               android:textSize="20sp"/>
+       </TableRow>
+
+   </TableLayout>
+
+</LinearLayout>

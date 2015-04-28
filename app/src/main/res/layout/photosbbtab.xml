@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgBike"
+            android:contentDescription="@string/ch9txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bike"
+            android:padding="15sp"
+            />
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ch9txtBike"
+            android:textSize="30sp"
+            android:paddingRight="0sp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgBarge"
+            android:contentDescription="@string/ch9txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barge"
+            android:padding="15sp"
+            />
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ch9txtBarge"
+            android:textSize="30sp"
+            android:paddingRight="0sp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgBudapest"
+            android:contentDescription="@string/ch9txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/budapest"
+            android:padding="15sp"
+            />
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ch9txtBudapest"
+            android:textSize="30sp"
+            android:paddingRight="0sp"/>
+
+    </TableRow>
+
+</TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>

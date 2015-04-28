@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Ultimate</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splashTitleUltimate">Ultimate Android App for Delta College\'s Android Application Development Course</string>
+    <string name="splashSubUltimate">This app is mainly made for 5-inch based screens and targeted for Ice Cream Sandwich and above</string>
+    <string name="splashContinueUltimate">(touch me to continue)</string>
+    <string name="title_activity_ultimate_list">List of Chapters</string>
+
+    <!--Chapter 3-->
+    <!--Concert Tickets-->
+    <string name="ch2txtTitle">Ticket Vault</string>
+    <string name="ch2txtTickets">Number of Tickets</string>
+    <string name="ch2prompt">Select Group</string>
+    <string name="ch2description">Concert Image</string>
+    <string name="ch2btnCost">Find the Cost</string>
+    <string-array name="ch2txtGroup">
+        <item>Cracked Eggs</item>
+        <item>Spinout</item>
+        <item>Zig Zag</item>
+    </string-array>
+    <!--Paint Calculator ch3-4 -->
+    <string name="ch34txtTitle">Paint Calculator</string>
+    <string name="ch34txtH">Height</string>
+    <string name="ch34txtW">Width</string>
+    <string name="ch34prompt">Select Color</string>
+    <string name="ch34description">Paint Image</string>
+    <string name="ch34btnGal">Find the amount of Gallons</string>
+    <string-array name="ch34txtGroup">
+        <item>Rosy Red</item>
+        <item>Grody Green</item>
+        <item>Beautiful Blue</item>
+        <item>Yucky Yellow</item>
+        <item>Peppy Purple</item>
+    </string-array>
+    <!--Split the bill ch3-5 -->
+    <string name="ch35txtTitle">Spilt The Bill!</string>
+    <string name="ch35txtBill">Bill</string>
+    <string name="ch35txtParty">Party</string>
+    <string name="ch35txtTip">The Tip is</string>
+    <string name="ch35prompt">Quality of Service</string>
+    <string name="ch35description">Restaurant Image</string>
+    <string name="ch35btnCalculate">Spilt It!</string>
+    <string-array name="txtGroup">
+        <item>Excellent</item>
+        <item>Average</item>
+        <item>Poor</item>
+    </string-array>
+    <!--Medical Calculator ch4 -->
+    <string name="ch4hint">Weight of Patient</string>
+    <string name="ch4radLbToKilo">Convert Pounds to Kilograms</string>
+    <string name="ch4radKiloToLb">Convert Kilograms to Pounds</string>
+    <string name="ch4btnConvert">Convert Weight</string>
+    <string name="ch4txtTitle">Convert Patient Weight</string>
+    <!--Tool Rental ch4-1 -->
+    <string name="ch41txtTitle">Tool Rentals</string>
+    <string name="ch41hint">Number of Days to rent</string>
+    <string name="ch41radWasher">Rent of Power Washer</string>
+    <string name="ch41radTiller">Rent Tiller</string>
+    <string name="ch41btnCost">Calculate Cost</string>
+    <!--Car Rental ch4-2 -->
+    <string name="ch42txtTitle">Car Rentals</string>
+    <string name="ch42hint">Number of Days to rent</string>
+    <string name="ch42radCompact">Compact</string>
+    <string name="ch42radMidSize">Mid-Sized</string>
+    <string name="ch42radLuxury">Luxury</string>
+    <!--Math Flash Cards ch4-4 -->
+    <string name="ch44txtTitle">Math Flash Cards</string>
+    <string name="ch44hint1">Number 1</string>
+    <string name="ch44hint2">Number 2</string>
+    <string name="ch44radAdd">+</string>
+    <string name="ch44radSubtract">-</string>
+    <string name="ch44radMultiply">*</string>
+    <string name="ch44radDivide">/</string>
+    <string name="ch44btnFlash">Flash Me!</string>
+    <!--San Francisco ch5 -->
+    <string name="ch5bridge">Bridge Image</string>
+    <string name="ch5trolley">Trolley Image</string>
+    <string name="ch5wharf">Wharf Image</string>
+    <!--Sushi Menu ch5-2 -->
+    <string name="title_activity_seaweed">Seaweed</string>
+    <string name="title_activity_salmon">Salmon</string>
+    <string name="title_activity_sashimi">Sashimi</string>
+    <!--Latin Music Ch6 -->
+    <string name="ch6txtSplash">Sounds of the Caribbean</string>
+    <string name="ch6marimba">Marimba Image</string>
+    <string name="ch6merengue">Merengue Image</string>
+    <string name="ch6btnMarimba">Play Marimba Song</string>
+    <string name="ch6btnMerengue">Play Merengue Song</string>
+    <string name="ch6title_activity_not_splashing">Latin Music</string>
+    <!--Personal Playlist Ch6-6 -->
+    <string name="ch66txtSplash">Jordan\'s Super Awesome Playlist</string>
+    <!--Endangered Species Ch7 -->
+    <string name="ch7imgLarge">Endangered Species Image</string>
+    <!--Anthology Wedding Ch7-5 -->
+    <string name="ch75imgLarge">Large Image</string>
+    <string name="ch75txtContact">Contact us at anthology@wed.com</string>
+    <!--Sailing Adventures Ch8 -->
+    <string name="ch8imgSail">Sailing Image</string>
+    <string name="ch8txtTitle">Sailing Adventures - Kona, Hawaii</string>
+    <string name="ch8txtDescription">Sailing Adventures located at Kona Harbor on the Big Island in
+        Hawaii, has a simple sailing philosophy - We Create Adventure! Our chance of having an enjoyable
+        and productive sailing adventure. Select a date for sailing day trip.
+    </string>
+    <string name="ch8btnDate">Select the Date for a Full-Day Sailing Trip</string>
+    <!--Appalachian Trail Ch8-1 -->
+    <string name="ch81imgTrail">Trailing Image</string>
+    <string name="ch81txtTitle">Appalachian Trail Festival</string>
+    <string name="ch81txtDescription">Join us for a yearlong festival celebration of daily hikes throughout
+    the 2,184 miles of the Appalachian Trail. There will be short hikes for beginners and longer hikes
+    for more experienced hikers.</string>
+    <string name="ch81btnDate">Select the Desired Date for Tickets</string>
+    <!--Bike and Barge Ch9 -->
+    <string name="ch9title_item_detail">Bike and Barge</string>
+    <string name="ch9txtBike">Bikes equipped with gel seats are our mode of transportation to view the
+        landscape, history, customs and traditions.</string>
+    <string name="ch9txtBarge">This luxury boat leaves beautiful Amsterdam and finishes 7 days later in Budapest, Hungary.</string>
+    <string name="ch9txtBudapest">The majestic Parliament building lies in the center of Budapest, Hungary.</string>
+    <string name="ch9txtTitle">Summer - Bike and Barge Europe Tour.</string>
+    <string name="ch9txtInfo">Join us for a dream vacation filled with biking in cities throughout Europe
+        from Amsterdam to Budapest. The next trip leaves on June 2.</string>
+    <string name="ch9txtDescription">Bike Barge Image</string>
+    <!--Wave Animation Ch10 -->
+    <string name="Ch10imgDescription">Surfing Image</string>
+    <string name="Ch10btnStart">Start Frame Animation</string>
+    <string name="Ch10btnStop">Start Tween Animation</string>
+    <string name="Ch10title_activity_tween">Tween</string>
+    <!--Clear Jet Ch11 -->
+    <string name="ch11txtTitle">Frequent Flyer Miles</string>
+    <string name="ch11hint1">Name</string>
+    <string name="ch11hint2">Miles Flown</string>
+    <string name="ch11btnStatus">Find Status</string>
+    <string name="ch11imgDescription">Status Level Image</string>
+    <string name="ch11txtStatus">Reward Level</string>
+    <!--Flag Quiz Ch11 -->
+    <string name="settings_activity">Flag Quiz Settings</string>
+    <string name="number_of_choices">Number of Choices</string>
+    <string name="number_of_choices_description">Display 3, 6 or 9 guess buttons</string>
+    <string name="world_regions">Regions</string>
+    <string name="world_regions_description">Regions to include in the quiz</string>
+    <string name="guess_country">Guess the Country</string>
+    <string name="results">%1$d guesses, %2$.02f%% correct</string>
+    <string name="incorrect_answer">Incorrect!</string>
+    <string name="default_region_message">Setting North America as the default region. One region must be selected.</string>
+    <string name="restarting_quiz">Quiz will restart with your new settings</string>
+    <string name="ok">OK</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="image_description">Image of the current flag in the quiz</string>
+    <string name="default_region">North_America</string>
+    <string name="title_activity_other_resources">OtherResourcesActivity</string>
+
+
+</resources>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="edu.delta.jordanschreier.ultimate.OtherResourcesActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="*DISCLAIMER*"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Any and all content and intellectual property that makes up this app is purely for academic purposes. So that means the maker of this app as well as the publisher of this app does not own any copyrighted material that is incorporated into this app. That means this app should be used only for educational purposes."
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="NOTICE: This app has apps made from the Android Bootcamp 2nd Edition textbook. I have modified some of them so they are different for both better functionality and better looks. Also notice there are apps in this app that aren't even in the book. To clear the sharedPrefs file on your android device, just clear app data (not cache) by going into this app's info setting page."
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code for Textbook Apps (code is more closer to book as well as more organized)"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code for this App"
+        android:id="@+id/button10"
+        android:layout_below="@+id/button"
+        android:clickable="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Splash Screen on Startup"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:checked="true"
+        android:textSize="20sp" />
+</RelativeLayout>

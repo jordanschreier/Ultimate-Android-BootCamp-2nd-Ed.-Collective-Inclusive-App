@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.delta.jordanschreier.ultimate" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/uicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".UltimateMainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UltimateList"
+            android:label="@string/title_activity_ultimate_list"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+
+        <!-- put a copyright so students don't copy and paste -->
+        <!-- Make splash screen optional in shared prefs -->
+        <!-- put notes that apps are slightly different with themes and error catching -->
+        <!--
+        github
+        You don't need to put my name. Here's the link
+            https://github.com/dandelano/Android-Boot-Camp-2nd-Ed
+        -->
+        <!-- Cleat app data to reset prefs -->
+
+
+        <!-- Chapter one. -->
+        <activity
+            android:name=".MainActivityy"
+            android:label="Hello World!" >
+        </activity>
+        <activity
+            android:name=".HelloWorldActivity"
+            android:label="Joke of The Day" >
+        </activity>
+
+        <!-- Chapter two. -->
+        <activity
+            android:name=".HRMainActivity"
+            android:label="Healthy Recipes" >
+        </activity>
+        <activity
+            android:name=".Recipe"
+            android:label="Guacamole" >
+        </activity>
+        <activity
+            android:name=".ContactActivity"
+            android:label="Address Book" >
+        </activity>
+        <activity
+            android:name=".jesus"
+            android:label="Jesus" >
+        </activity>
+        <activity
+            android:name=".joe"
+            android:label="Joe Jonas" >
+        </activity>
+        <activity
+            android:name=".MusicMain"
+            android:label="Music News" >
+        </activity>
+        <activity
+            android:name=".iggy"
+            android:label="Izzy News" >
+        </activity>
+        <activity
+            android:name=".tswift"
+            android:label="T-Swift News" >
+        </activity>
+
+        <!-- Chapter three. -->
+        <activity
+            android:name=".ConcertMainActivity"
+            android:label="Concert Tickets"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".PaintMainActivity"
+            android:label="Paint Calculator" >
+        </activity>
+        <activity
+            android:name=".BillMainActivity"
+            android:label="Split the Bill"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+
+        <!-- Chapter four. -->
+        <activity
+            android:name=".MedicalMainActivity"
+            android:label="Medical Calculator" >
+        </activity>
+        <activity
+            android:name=".ToolMainActivity"
+            android:label="Tool Rental" >
+        </activity>
+        <activity
+            android:name=".CarMainActivity"
+            android:label="Car Rental" >
+        </activity>
+        <activity
+            android:name=".MathMainActivity"
+            android:label="Math Flashcards" >
+        </activity>
+
+        <!-- Chapter five. -->
+        <activity
+            android:name=".CityGuide"
+            android:icon="@drawable/ic_launcher_sf"
+            android:label="San Francisco City Guide"
+            android:logo="@drawable/ic_launcher_sf"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".Bridge"
+            android:label="Golden Gate Bridge" >
+        </activity>
+        <activity
+            android:name=".Trolley"
+            android:label="Cable Car Trolley" >
+        </activity>
+        <activity
+            android:name=".Wharf"
+            android:label="Fisherman&apos;s Wharf" >
+        </activity>
+        <activity
+            android:name=".MenuMainActivity"
+            android:icon="@drawable/ic_launcher_sushi"
+            android:label="Sushi Menu"
+            android:logo="@drawable/ic_launcher_sushi"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".seaweed"
+            android:label="@string/title_activity_seaweed" >
+        </activity>
+        <activity
+            android:name=".salmon"
+            android:label="@string/title_activity_salmon" >
+        </activity>
+        <activity
+            android:name=".sashimi"
+            android:label="@string/title_activity_sashimi" >
+        </activity>
+
+        <!-- Chapter six. -->
+        <activity
+            android:name=".LatinMusicMainActivity"
+            android:label="Latin Music" >
+        </activity>
+        <activity
+            android:name=".NotSplashing"
+            android:label="@string/ch6title_activity_not_splashing" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="Personal Playlist"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="Personal Playlist"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- Chapter seven. -->
+        <activity
+            android:name=".SpeciesMainActivity"
+            android:label="Endangered Species" >
+        </activity>
+        <activity
+            android:name=".WeddingMainActivity"
+            android:label="Anthology Wedding" >
+        </activity>
+        <activity
+            android:name=".GalleryMainActivity"
+            android:label="Gallery" >
+        </activity>
+        <!-- Chapter eight. -->
+        <activity
+            android:name=".SailingMainActivity"
+            android:label="Sailing Adventures - Tablet" >
+        </activity>
+        <activity
+            android:name=".SailingPhoneMainActivity"
+            android:label="Sailing Adventures" >
+        </activity>
+        <activity
+            android:name=".AppalachianMainActivity"
+            android:label="Appalachian Trail Festival"
+            android:theme="@android:style/Theme.Black" >
+        </activity>
+
+        <!-- Chapter nine. -->
+        <activity
+            android:name=".ItemListActivitybbtab"
+            android:label="Bike and Barge - Tablet" >
+        </activity>
+        <activity
+            android:name=".ItemDetailActivitybbtab"
+            android:label="@string/ch9title_item_detail"
+            android:parentActivityName=".ItemListActivitybbtab" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivitybbtab" />
+        </activity>
+        <activity
+            android:name=".ItemListActivityPhone"
+            android:label="Bike and Barge" >
+        </activity>
+        <activity
+            android:name=".ItemDetailActivityPhone"
+            android:label="@string/ch9title_item_detail"
+            android:parentActivityName=".ItemListActivityPhone" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivityPhone" />
+        </activity>
+        <!-- Chapter ten. -->
+        <activity
+            android:name=".WaveMainActivity"
+            android:label="Wave Animation" >
+        </activity>
+        <activity
+            android:name=".Tween"
+            android:label="Tween" />
+
+        <!-- Chapter eleven. -->
+        <activity
+            android:name=".JetMainActivity"
+            android:label="Clear Jet Rewards" >
+        </activity>
+        <activity
+            android:name=".Status"
+            android:label="Status" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Flag Quiz" >
+           >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings_activity" >
+        </activity>
+        <activity
+            android:name=".UPMainActivity"
+            android:label="Using Preferences" >
+        </activity>
+        <activity
+            android:name=".AppPreferenceActivity"
+            android:label="Using Preferences" >
+        </activity>
+        <activity
+            android:name=".EmailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- Other Resources-->
+        <activity
+            android:name=".OtherResourcesActivity"
+            android:label="@string/title_activity_other_resources" >
+        </activity>
+    </application>
+
+</manifest>

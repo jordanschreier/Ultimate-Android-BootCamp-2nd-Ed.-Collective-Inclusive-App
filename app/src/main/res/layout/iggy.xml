@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Iggy Azalea Knows Her Career Might Not Last Too Long, And She’s OK With It"
+        android:id="@+id/textView"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Most artists shoot for longevity — a career that spans decades, with loads of records to their name, possibly a few greatest hits albums and a separate storage unit for their Grammys. Iggy Azalea is right along with them. But the Australian rapper realizes that not everything is a dream in the music industry. In a Q&amp;A with GQ, Iggy spills her thoughts on where she would like to be with her music in a few years.  “You never know how long you’ll be in people’s good graces, especially in this business,” she told the magazine. “So I hope it’s long — but I could be here for three or four years and then be out, like most artists. So it depends. I might be here for a long time. At the very worst, if I have a short-lived career, at least I could say I sparked a change — that I inspired some leniency in what people accept in hip-hop.  That “leniency” is exactly what all the controversy about her is about. With discussion about race in hip-hop catalyzed by her rise to fame, Azalea has amassed some haters… but not nearly as many as her followers, who raise her to top chart positions and vote for her awards. In fact, whenever she gets down, she sees the awards she wins as the medicine."
+        android:id="@+id/textView2"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textIsSelectable="true" />
+</RelativeLayout>

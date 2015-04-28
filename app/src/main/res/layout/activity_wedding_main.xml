@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".WeddingMainActivity"
+    android:orientation="vertical">
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/gridView1"
+        android:numColumns="2"
+        android:columnWidth="100dp"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="0dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/imgLarge"
+        android:contentDescription="@string/ch75imgLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch75txtContact"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
+

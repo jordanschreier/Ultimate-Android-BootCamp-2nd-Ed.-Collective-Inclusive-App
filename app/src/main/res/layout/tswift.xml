@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Taylor Swift: Dissing Katy Perry In Another Song For Next Album?"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="atyCats and Swifties should be prepared for an all-out war! As Katy is reportedly gearing up to debut a new song slamming Taylor during her Super Bowl halftime show, a new report claims that Tay has a diss track of her own in the works! Taylor Swift, 25, already released one song, “Bad Blood”, in which she seemingly dissed her former friend Katy Perry, 30. But if Katy takes things to another level by going after Taylor in a new song, “She’s So Creepy,” at the Super Bowl on Feb. 1, as multiple reports have claimed, Tay is ready to retaliate! Here’s what we know.   Taylor Swift’s Feud With Katy Perry: Will Tay Diss Katy In New Song? We’ve never been so worried about the Super Bowl."
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textIsSelectable="false"
+        android:textSize="20dp" />
+</RelativeLayout>
